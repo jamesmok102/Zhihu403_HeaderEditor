@@ -1,0 +1,15 @@
+{
+    "request" : [
+        {
+            "enable": false,
+            "name" : "zhihu403",
+            "ruleType": "regexp",
+            "pattern": "^http(s?):\\/\\/(pica|pic1|pic2|pic3|pic4)\\.zhimg\\.com/(.*)",
+            "exclude": "",
+            "isFunction": false,
+            "action": "redirect",
+            "to": "https://picx.zhimg.com/$3,",
+            "group": "重定向"
+        }
+    ]
+}
