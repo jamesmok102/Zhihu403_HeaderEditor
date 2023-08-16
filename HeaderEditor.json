@@ -1,9 +1,10 @@
 {
     "request" : [
         {
-            "enable": false,
+            "enable": true,
             "name" : "zhihu403",
-            "ruleType": "regexp",
+            "ruleType": "redirect",
+            "matchType": "regexp",
             "pattern": "^http(s?):\\/\\/(pica|pic1|pic2|pic3|pic4)\\.zhimg\\.com/(.*)",
             "exclude": "",
             "isFunction": false,
