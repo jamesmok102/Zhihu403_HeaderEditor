@@ -5,11 +5,11 @@
             "name" : "zhihu403",
             "ruleType": "redirect",
             "matchType": "regexp",
-            "pattern": "^http(s?):\\/\\/(pica|pic1|pic2|pic3|pic4)\\.zhimg\\.com/(.*)",
+            "pattern": "^http(s?):\/\/(pica|pic1|pic2|pic3|pic4)\\.zhimg\\.com/(.*)",
             "exclude": "",
             "isFunction": false,
             "action": "redirect",
-            "to": "https://picx.zhimg.com/$3,",
+            "to": "https://picx.zhimg.com/$3",
             "group": "重定向"
         }
     ],
