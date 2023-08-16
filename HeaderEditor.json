@@ -11,5 +11,8 @@
             "to": "https://picx.zhimg.com/$3,",
             "group": "重定向"
         }
-    ]
+    ],
+    "sendHeader": [],
+    "receiveHeader": [],
+	"receiveBody": []
 }
